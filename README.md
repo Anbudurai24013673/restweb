@@ -28,7 +28,91 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
 
+    <nav class="navbar">
+        <div class="logo">Little Lemon Restaurant</div>
+        <img src="Images/Asset 7@4x.png" alt="">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bg">
+        <div class="menu-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dosa">
+                <div class="card-content">
+                    <h3>Dosa</h3>
+                    <p>Crispy and Yummy Dosa.</p>
+                    <span class="price">Rs. 30</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.pexels.com/photos/28674705/pexels-photo-28674705/free-photo-of-indian-dal-and-rice-in-traditional-utensils.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dal Rice">
+                <div class="card-content">
+                    <h3>Dal Rice</h3>
+                    <p>Traditional Indian Dal and Rice.</p>
+                    <span class="price">Rs. 50</span>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img src="https://images.pexels.com/photos/20422135/pexels-photo-20422135/free-photo-of-meal-on-plate-and-sauces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vada">
+                <div class="card-content">
+                    <h3>Vada</h3>
+                    <p>Crispy and Crunchy Vada.</p>
+                    <span class="price">Rs. 10</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/29333631/pexels-photo-29333631/free-photo-of-warm-ceramic-coffee-cup-on-marble-surface.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Coffee">
+                <div class="card-content">
+                    <h3>Coffee</h3>
+                    <p>A delightful Coffee.</p>
+                    <span class="price">Rs. 10</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.pexels.com/photos/20689160/pexels-photo-20689160/free-photo-of-flat-bread-and-elephant-figurine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chappathi">
+                <div class="card-content">
+                    <h3>Chappathi</h3>
+                    <p>Soft Chapathi.</p>
+                    <span class="price">Rs. 15</span>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Noodles">
+                <div class="card-content">
+                    <h3>Noodles</h3>
+                    <p>Nice and long Noodles.</p>
+                    <span class="price">Rs. 100</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+```
 
 ## OUTPUT:
 
