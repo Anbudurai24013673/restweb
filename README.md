@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:
+## Date:7/05/2025
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -28,93 +28,88 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-```
+``` html
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Little Lemon Restaurant</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Indian 7s Restaurant | Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="background"></div>
+<body style="background-color: blanchedalmond;">
+  
+  <header>
+    <h1 style="text-align: center;">Indian 7s Restaurant</h1>
+    <div style="text-align: center;">
+          <img  src ="Ethos+1101211900.png" alt="Centered Image" height="630px" width="1400" style="text-align: center;color: sandybrown;" draggable="false" />
 
-    <nav class="navbar">
-        <div class="logo">Little Lemon Restaurant</div>
-        <img src="Images/Asset 7@4x.png" alt="">
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="bg">
-        <div class="menu-container">
-            <div class="card">
-                <img src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dosa">
-                <div class="card-content">
-                    <h3>Dosa</h3>
-                    <p>Crispy and Yummy Dosa.</p>
-                    <span class="price">Rs. 30</span>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="https://images.pexels.com/photos/28674705/pexels-photo-28674705/free-photo-of-indian-dal-and-rice-in-traditional-utensils.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dal Rice">
-                <div class="card-content">
-                    <h3>Dal Rice</h3>
-                    <p>Traditional Indian Dal and Rice.</p>
-                    <span class="price">Rs. 50</span>
-                </div>
-            </div>
-        
-            <div class="card">
-                <img src="https://images.pexels.com/photos/20422135/pexels-photo-20422135/free-photo-of-meal-on-plate-and-sauces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vada">
-                <div class="card-content">
-                    <h3>Vada</h3>
-                    <p>Crispy and Crunchy Vada.</p>
-                    <span class="price">Rs. 10</span>
-                </div>
-            </div>
-        </div>
-        <div class="menu-container">
-            <div class="card">
-                <img src="https://images.pexels.com/photos/29333631/pexels-photo-29333631/free-photo-of-warm-ceramic-coffee-cup-on-marble-surface.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Coffee">
-                <div class="card-content">
-                    <h3>Coffee</h3>
-                    <p>A delightful Coffee.</p>
-                    <span class="price">Rs. 10</span>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="https://images.pexels.com/photos/20689160/pexels-photo-20689160/free-photo-of-flat-bread-and-elephant-figurine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chappathi">
-                <div class="card-content">
-                    <h3>Chappathi</h3>
-                    <p>Soft Chapathi.</p>
-                    <span class="price">Rs. 15</span>
-                </div>
-            </div>
-        
-            <div class="card">
-                <img src="https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Noodles">
-                <div class="card-content">
-                    <h3>Noodles</h3>
-                    <p>Nice and long Noodles.</p>
-                    <span class="price">Rs. 100</span>
-                </div>
-            </div>
-        </div>
     </div>
     
+  </header>
+
+  <section class="hero">
+    <h2>Fresh. Authentic. Indian.</h2>
+    <p>Bringing you soulful dishes from the heart of India.</p>
+  </section>
+<nav>
+      <a href="home.html" style="margin: 0 20px; text-decoration: none;">Home</a><br />
+      <a href="menu.html" style="margin: 0 20px; text-decoration: none;">Menu</a><br />
+    </nav>
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Indian 7s Restaurant is a culinary journey through India’s vibrant flavors. We craft every dish with passion, culture, and spice.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Indian 7s Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Menu | Indian 7s Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: blanchedalmond;">
+  <header>
+    <h1 style="text-align: center;" >Our Menu</h1>
+    <div style="text-align: center;">
+        <img  src ="Spicy-Penne-Pasta_-done.png" alt="Centered Image" height="630px" width="1400" style="text-align: center;color: sandybrown;" draggable="false" />
+    </div>
+    
+    
+  </header>
+
+  <section class="menu">
+    <h2>Signature Dishes</h2>
+
+    <ul>
+      <li><strong>Butter Chicken</strong> – Creamy and rich. ₹350</li>
+      <li><strong>Paneer Tikka</strong> – Grilled cottage cheese. ₹280</li>
+      <li><strong>Masala Dosa</strong> – Crisp & spiced. ₹200</li>
+      <li><strong>Gulab Jamun</strong> – Warm Indian dessert. ₹90</li>
+    </ul>
+  </section>
+  <a href="home.html" style="margin: 0 20px; text-decoration: none;">Home</a><br />
+    <a href="menu.html" style="margin: 0 20px; text-decoration: none;">Menu</a><br />
+
+  <footer>
+    <p>&copy; 2025 Indian 7s Restaurant</p>
+  </footer>
 </body>
 </html>
 ```
 
+
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ea196a7c-a5aa-48eb-9b1f-02c8ec543d03)
+
+![image](https://github.com/user-attachments/assets/a633af49-d3b4-44a4-b519-fe76b6b6e819)
 
 
 ## RESULT:
