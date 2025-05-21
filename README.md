@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:7/05/2025
+## Date:21/05/2025
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -28,7 +28,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-``` html
+```
+home.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,8 +67,8 @@ Publish the website in the given URL.
 
 </body>
 </html>
-```
-```html
+
+menu.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
